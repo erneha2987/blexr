@@ -12,11 +12,16 @@ Steps to install:
 - Click on Upload plugin button, and select plugin zip file
 - Click on Install now button
 
-We can use the shortocode to show the calculator on front end 
+We can use the shortocode to show the calculator on front end
+Steps to use shortcode:
+- Go to wp admin > pages > gutenberg editor
+- Choose "shortcode block" to run the calculator
 ```sh
 [blexr_bet_calculator] 
 ```
-To display the sports data, we can select the gutenberg block from the wp admin with title
+
+To display the sports data, we can select the gutenberg block from the wp admin with title,
+- After adding the custom block, the table will only appeer on the front end and not in the wp admin
 ```sh
 Sports Odd Data Table
 ```
